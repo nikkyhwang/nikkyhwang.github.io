@@ -2,11 +2,14 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: rgb(103, 103, 103);
 }
 
 * {
-  outline: 1px dotted black;
+  outline: 1px solid black;
 }
 
-/* Your Awesome Scripts */
+/* Portfolio Styling */
+.lg-backdrop{
+  background-color:whitesmoke;
+}
