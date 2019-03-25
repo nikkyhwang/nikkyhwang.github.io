@@ -133,3 +133,47 @@ text-align: center;
 #sketch{
   margin-top: 25px;
 }
+
+/* Contact Styling */
+
+#contactHeader{
+  text-align: center;
+}
+
+fieldset{
+  border: 2px solid rgb(46, 46, 46);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+
+label, #input{
+  height:10px;
+  padding: 15px;
+  align-content: auto;
+}
+
+#email, #comments{
+  margin-top: 15px;
+}
+
+textarea, #input{
+  margin-top:10px;
+  width: 500px;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(48, 48, 48);
+}
+#input{
+  width: 300px;
+}
+
+.send{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 15px;
+  border-radius: 10px;
+}

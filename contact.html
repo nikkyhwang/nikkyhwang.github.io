@@ -39,20 +39,26 @@
 
     <h1 id="contactHeader">Contact</h1>
 
-    <form action="https://formspree.io/pmanikoth@ewu.edu" method="POST">
+    <form action="https://formspree.io/nikkyhwang06@gmail.com" method="POST">
        
         <!-- Visible -->
-        <label for="name">Name</label>
-        <input type="text" name="name">
-        
-        <label for="_replyto">Email</label>
-        <input type="email" name="_replyto">
-       
-        <label for="comments">Comments</label>
+        <fieldset>
+            <div id="name">
+        <label for="name">Name *</label><br/>
+        <input id="input" type="text" name="name"> <br/>
+            </div>
+
+        <div id="email">
+        <label for="_replyto">Email *</label><br/>
+        <input id="input" type="email" name="_replyto"><br/>
+       </div>
+        <div id="comments">
+        <label for="comments">Questions/Comments</label><br/>
         <textarea name="comments" id="" cols="30" rows="10"></textarea>
+</div>
+        <input class="send" type="submit" value="Send" >
 
-        <input type="submit" value="Send">
-
+    </fieldset>
         <!-- Hidden -->
         <input type="hidden" name="_next" value="/"/>
 
