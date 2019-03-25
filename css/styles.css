@@ -1,9 +1,14 @@
 /*
   DIAGNOSTIC STYLING
 */
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+
 body {
   background-color: rgb(16, 16, 16);
   color: white;
+  font-family: 'Catamaran', sans-serif;
 }
 
 img:hover {
@@ -66,6 +71,16 @@ a.current {
   animation: zoomInDown 2s;
 }
 
+#portfolioHeader{
+  text-align: center;
+  animation:bounceInLeft 2s;
+  }
+
+#contactHeader{
+  text-align: center;
+  animation: flipInY 1s;
+}
+
 /* Home Styling */
 
 #enterPortfolio{
@@ -88,6 +103,8 @@ input{
   padding: .75em;
   border: none;
   border-radius: 2px;
+  padding-left: 30px;
+padding-right:30px;
 }
 
 /* About Styling */
@@ -123,9 +140,7 @@ text-align: center;
   padding: 30px;
 }
 /* Portfolio Styling */
-#portfolioHeader{
-  text-align: center;
-}
+
 .lg-backdrop{
   background-color:black;
 }
@@ -136,9 +151,6 @@ text-align: center;
 
 /* Contact Styling */
 
-#contactHeader{
-  text-align: center;
-}
 
 fieldset{
   border: 2px solid rgb(46, 46, 46);
