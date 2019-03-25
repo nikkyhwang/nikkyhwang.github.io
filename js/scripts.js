@@ -10,10 +10,23 @@ $(function(){
     });
   });
 
+
+  // Get Current Year
+var today = new Date();
+var year = today.getFullYear();
+
+console.log( today, year  );
+
+// Show Current Year
+$('span').text(year);
+
+
 // Light Gallery
 
 $('#gallery').lightGallery({
     share: false,
     download:false,
-    mode:'lg-zoom-in-out',
-});
+    mode:'lg-zoom-in-out'
+})
+;
+
