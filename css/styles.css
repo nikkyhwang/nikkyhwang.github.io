@@ -138,6 +138,7 @@ text-align: center;
   justify-content: flex-start;
   flex-wrap: wrap;
   padding: 30px;
+  font-size: 20px;
 }
 
 #pTwo{
@@ -149,6 +150,7 @@ text-align: center;
   justify-content: flex-start;
   flex-wrap: wrap;
   padding: 30px;
+  font-size: 20px;
 }
 /* Portfolio Styling */
 
