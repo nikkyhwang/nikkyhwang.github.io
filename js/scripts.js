@@ -11,12 +11,8 @@ $(function(){
   });
 
 // Light Gallery
-$('#gallery-1').lightGallery({
-    thumbnail:false,
-    share: false,
-});
 
-$('#gallery-2').lightGallery({
+$('#gallery').lightGallery({
     share: false,
     download:false,
     mode:'lg-zoom-in-out',
