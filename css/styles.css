@@ -2,14 +2,32 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: rgb(103, 103, 103);
+  background-color: rgb(16, 16, 16);
+  color: white;
 }
 
-* {
-  outline: 1px solid black;
+#navbar{
+  display: flex;
+  flex-direction: row-reverse;
+  list-style-type: none;
+  width: auto;
+  height:50px;
+  background-color: rgb(16, 16, 16);
 }
+
+li{
+  margin: 1em;
+
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
 
 /* Portfolio Styling */
 .lg-backdrop{
   background-color:black
 }
+

@@ -1,6 +1,8 @@
 // Everything OK?
 console.log('OK');
 
+// Side Nav Trigger
+
 
 // Light Gallery
 $('#gallery-1').lightGallery({
