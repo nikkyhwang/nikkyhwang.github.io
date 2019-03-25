@@ -6,9 +6,12 @@ body {
   color: white;
 }
 
+/* Nav Bar */
+
 #navbar{
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: flex-end;
+  flex-direction: row;
   list-style-type: none;
   width: auto;
   height:50px;
@@ -17,7 +20,6 @@ body {
 
 li{
   margin: 1em;
-
 }
 
 a{
@@ -25,6 +27,21 @@ a{
   color:white;
 }
 
+a:hover{
+  background-color: rgb(29, 29, 29);
+  font-size: 18px;
+  padding: .55em;
+}
+
+a.current {
+  background-color: black;
+  padding: .75em
+}
+
+/* Headers */
+#header{
+  text-align: center;
+}
 
 /* Portfolio Styling */
 .lg-backdrop{

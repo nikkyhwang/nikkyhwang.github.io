@@ -1,8 +1,14 @@
 // Everything OK?
 console.log('OK');
 
-// Side Nav Trigger
-
+// Active Navbar
+$(function(){
+    $('a').each(function() {
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+      }
+    });
+  });
 
 // Light Gallery
 $('#gallery-1').lightGallery({
