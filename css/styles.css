@@ -6,6 +6,17 @@ body {
   color: white;
 }
 
+img:hover {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+img {
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+
 #home{
   background-image: url("/img/homepage.JPG");
   background-size:100% auto;
@@ -79,6 +90,38 @@ input{
   border-radius: 2px;
 }
 
+/* About Styling */
+#me3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#abouth2{
+text-align: center;
+}
+
+#pOne{
+  display: flex;
+  align-items: center;
+}
+
+.pOne{
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+#pTwo{
+  display: flex;
+  align-items: center; 
+}
+
+.pTwo{
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
 /* Portfolio Styling */
 .lg-backdrop{
   background-color:black;
