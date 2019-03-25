@@ -145,6 +145,11 @@ text-align: center;
   background-color:black;
 }
 
+#portfolio{
+  display: block;
+  margin-left: 7%;
+}
+
 #sketch{
   margin-top: 25px;
 }
